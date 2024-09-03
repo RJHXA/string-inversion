@@ -1,1 +1,1 @@
-# string-inversion
+# challenge-resolution
