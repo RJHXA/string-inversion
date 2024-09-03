@@ -5,13 +5,14 @@ def is_fibonacci(n):
 
     return is_perfect_square(5*n*n + 4) or is_perfect_square(5*n*n - 4)
 
+
 try:
-    number = int(input("Informe um número: "))
+    number = int(input("Inform a number: "))
 
     if is_fibonacci(number):
-        print(f"O número {number} pertence à sequência de Fibonacci.")
+        print(f"{number} is in Fibonacci sequence.")
     else:
-        print(f"O número {number} não pertence à sequência de Fibonacci.")
+        print(f"{number} is not in Fibonacci sequence.")
 
 except Exception as e:
     print(e)

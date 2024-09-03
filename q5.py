@@ -12,6 +12,7 @@ def reverse_string(s):
     
     return ''.join(char_list)
 
+
 input_string = input("Enter the string to be reversed: ")
 
 reversed_string = reverse_string(input_string)
